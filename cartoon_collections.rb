@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect do |call|
-    "#{call.upcase}!"
+   "#{call.upcase}!"
   end
 end
 
@@ -17,4 +17,4 @@ end
 def find_the_cheese(food)
   cheese_types = ["cheddar", "gouda", "camembert"]
   food.find {|i| i = (cheese_types[i])}
-end
+end 
